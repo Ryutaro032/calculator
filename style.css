@@ -1,0 +1,22 @@
+.calculator{
+    width: 200px;
+    margin: 50px auto;
+}
+.display{
+    width: 200px;
+    height: 25px;
+    text-align: right;
+    padding: 5px;
+    margin-bottom: 5px;
+    border:2px solid black;
+}
+.button-row{
+    width: 200px;
+    text-align: center;
+}
+.num-btn{
+    width: 45px;
+}
+.num-btn-bottom{
+    width: 95px;
+}

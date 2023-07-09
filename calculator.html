@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+        <div id="display" class="display">0</div>
+        <div class="button-row">
+            <button class="num-btn number" data-number-id="7">7</button>
+            <button class="num-btn number" data-number-id="8">8</button>
+            <button class="num-btn number" data-number-id="9">9</button>
+            <button class="num-btn calculation" data-number-id="+">+</button>
+        </div>
+
+        <div class="button-row">
+            <button class="num-btn number" data-number-id="4">4</button>
+            <button class="num-btn number" data-number-id="5">5</button>
+            <button class="num-btn number" data-number-id="6">6</button>
+            <button class="num-btn calculation" data-number-id="-">-</button>
+        </div>
+        <div class="button-row">
+            <button class="num-btn number" data-number-id="1">1</button>
+            <button class="num-btn number" data-number-id="2">2</button>
+            <button class="num-btn number" data-number-id="3">3</button>
+            <button class="num-btn calculation" data-number-id="*">*</button>
+        </div>
+        <div class="button-row">
+            <button class="num-btn zero" id="zero" data-number-id="0">0</button>
+            <button class="num-btn zero" id="doubleZero" data-number-id="00">00</button>
+            <button class="num-btn" id="point" data-number-id=".">.</button>
+            <button class="num-btn calculation" data-number-id="/">/</button>
+        </div>
+        <div class="button-row">
+            <button class="num-btn-bottom" id="equal">=</button>
+            <button class="num-btn-bottom" id="clear">AC</button>
+        </div>
+    </div>
+    <script src="./calculator.js"></script>
+</body>
+</html>
